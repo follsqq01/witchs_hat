@@ -909,12 +909,12 @@ creeping_line {
   margin-top: 24.4%;
   z-index: 2;
   font-family: "Bryndan Write";
-  animation: running-text 40s linear infinite;
+  animation: running-text 120s linear infinite;
 }
 
 @keyframes running-text {
   0% {transform: translateX(8%); }
-  100% {transform: translateX(-100%); }
+  100% {transform: translateX(-300%); }
 }
 .line {
   position: absolute;
