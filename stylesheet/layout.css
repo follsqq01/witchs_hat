@@ -914,7 +914,7 @@ position: absolute;
   align-items: center;
   justify-content: space-around;
   height: 5vw;
-  width: 110%;
+  width: 100%;
   background-color: #F28482;
   overflow: hidden;
 }
@@ -927,12 +927,15 @@ position: absolute;
   padding: 0.3%;
   text-transform: uppercase;
   animation: line 10s infinite linear;
+  
 }
 .invite {
   font-family: "Bryndan Write";
   color: #FEBFBE;
   font-size: 2.3vw;
   margin-right: 0.5%;
+
+
 }
 @keyframes line {
   0%{transform: translate(-10%,0);}
