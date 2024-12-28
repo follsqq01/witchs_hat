@@ -164,7 +164,7 @@ position: absolute;
 }
 
 .signature:hover {
-  animation: playfulAnimation 3s infinite ease-in-out; /* Анимация только при наведении */
+  animation: playfulAnimation 3s infinite ease-in-out; 
 }
 
 @keyframes playfulAnimation {
@@ -204,7 +204,7 @@ position: absolute;
   opacity: 0;
   transition: opacity 1.5s ease; 
   animation: fadeOutScale 1.5s ease forwards; 
-  animation-delay: 1s; /* Без задержки по умолчанию */
+  animation-delay: 1s; 
   animation: fadeOutReverse 1s forwards;  
 }
 .cost_box:hover {
@@ -245,7 +245,7 @@ position: absolute;
   opacity: 0;
   transition: opacity 1.5s ease; 
   animation: fadeOutScale 1.5s ease forwards; 
-  animation-delay: 1s; /* Без задержки по умолчанию */
+  animation-delay: 1s; 
   animation: fadeOutReverse 1s forwards;  
 }
 .Potter:hover {
@@ -328,7 +328,7 @@ position: absolute;
   }
   50% {
     opacity: 1;
-    transform: scale(1.1) rotate(5deg) translate(5px, -5px); /* Первая звездочка - смещение вверх-влево */
+    transform: scale(1.1) rotate(5deg) translate(5px, -5px); 
   }
   100% {
     opacity: 0.8;
@@ -343,7 +343,7 @@ position: absolute;
   }
   50% {
     opacity: 1;
-    transform: scale(1.1) rotate(-5deg) translate(-5px, 5px); /* Вторая звездочка - смещение вниз-вправо */
+    transform: scale(1.1) rotate(-5deg) translate(-5px, 5px); 
   }
   100% {
     opacity: 0.8;
@@ -585,7 +585,7 @@ position: absolute;
 
 @keyframes jumping {
   0%, 100% {transform: translateY(0);}
-  50% {transform: translateY(-20px); /* Высота прыжка */}
+  50% {transform: translateY(-20px);}
 }
 
 .mini_book3 {
